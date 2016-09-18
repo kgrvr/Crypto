@@ -2,6 +2,9 @@ package substitutionCipherScheme;
 
 import Jama.Matrix;
 
+// Use JAMA Library for matrix inverse
+// http://math.nist.gov/javanumerics/jama/
+
 class MatrixLengthNotEqualException extends Exception {
 	private static final long serialVersionUID = 1L;
 
